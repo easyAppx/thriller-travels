@@ -21,8 +21,8 @@ const Button = ({ to, children, size = "md", variant = "full", className = "", .
     <button
       className={`${getSize(size)} ${
         variant === "full"
-          ? "bg-[#D6A217] text-white max-w-[800px]"
-          : "bg-[#D6A217] text-white"
+          ? "bg-[#D6A217] max-w-[800px]"
+          : "bg-[#D6A217]"
       } ${className} flex justify-around text-[12px] text-center items-center font-serif font-[600] cursor-pointer rounded-full
           transition-all duration-300 ease-in-out`}
       {...rest}
